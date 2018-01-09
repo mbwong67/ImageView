@@ -2,6 +2,7 @@ package com.nastysloper.imageviewexample;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ImageView;
 
 public class TurtleActivity extends AppCompatActivity {
 
