@@ -8,7 +8,7 @@
     tools:context="com.nastysloper.imageviewexample.TurtleActivity">
 
     <ImageView
-        android:src="@drawable/Pikachu"
+        android:src="@drawable/PikachuPlay"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:contentDescription="A picture of Pikachu jumping." />
