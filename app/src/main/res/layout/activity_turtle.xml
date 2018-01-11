@@ -7,10 +7,47 @@
     android:layout_height="match_parent"
     tools:context="com.nastysloper.imageviewexample.TurtleActivity">
 
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="radioClick"
+            android:id="@+id/mike_button"
+            android:text="@string/turtle1" />
+
+        <RadioButton
+            android:text="@string/turtle2"
+            android:id="@+id/don_button"
+            android:onClick="radioClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:text="@string/turtle3"
+            android:id="@+id/leo_button"
+            android:onClick="radioClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:text="@string/turtle4"
+            android:id="@+id/raph_button"
+            android:onClick="radioClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
     <ImageView
-        android:src="@drawable/PikachuPlay"
+        android:src="@drawable/ninja_turtles1"
+        android:id="@+id/turtle_image"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:contentDescription="A picture of Pikachu jumping." />
+        android:contentDescription="@string/turtle1" />
 
 </LinearLayout>

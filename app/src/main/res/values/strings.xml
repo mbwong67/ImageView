@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ImageViewExample</string>
+    <string name="turtle1">Raph</string>
+    <string name="turtle2">Mike</string>
+    <string name="turtle3">Don</string>
+    <string name="turtle4">Leo</string>
+    <string name="pikachu">this is Pikachu</string>
+    <string name="pikachuPlay">This is Pikachu at play</string>
+    <string name="pikachuJump">This is Pikachu jumping</string>
 </resources>
